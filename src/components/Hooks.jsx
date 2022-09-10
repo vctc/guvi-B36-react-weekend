@@ -17,6 +17,7 @@ const Hooks = (props) => {
     //  console.log('component did mount')
     setTimeout(() => {
       setIsLoading(false);
+      console.log("empty");
     }, 3000);
   }, []);
 
